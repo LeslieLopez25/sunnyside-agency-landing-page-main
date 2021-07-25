@@ -1,0 +1,70 @@
+:root {
+    --darkgreen: #21564A;
+    --mediumgreen: #407D6E;
+    --lightgreen: #90D4C5;
+    --lightyellow: #FFF0BC;
+    --darkgray: #23313D;
+    --darkmediumgray: #626365;
+    --mediumgray: #A9A9A9;
+    --mediumlightgray: #C8C7C5;
+    --lightgray: #FFFBF8;
+    --white: #fff;
+    --darkblue: #1B506E;
+    --mediumblue: #0D5778;
+    --lightestblue: #6FCFFF;
+    --lightblue: #3DBEFF;
+    --lightpink: #FEDED2;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-container {
+    width: 100%;
+    background: var(--lightblue);
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 0.2fr auto 1fr;
+    align-items: center;
+    height: 80px;
+    width: 90%;
+    max-width: 1720px;
+    margin: 0 auto;
+}
+
+#navbar-logo {
+    color: var(--white);
+    justify-self: start;
+    margin-left: 20px;
+    font-family: 'Acme',
+        sans-serif;
+}
+
+#navbar-logo {
+    cursor: pointer;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    list-style: none;
+    text-align: center;
+    width: 70%;
+    justify-self: end;
+}
+
+.nav-links {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.nav-links:hover {
+    color: var(--darkgray);
+    transition: all 0.2s ease-out;
+}
