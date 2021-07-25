@@ -68,3 +68,9 @@
     color: var(--darkgray);
     transition: all 0.2s ease-out;
 }
+
+.nav-links-btn {
+    background-color: var(--lightestblue);
+    padding: 15px 16px;
+    border-radius: 30px;
+}
