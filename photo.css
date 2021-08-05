@@ -1,0 +1,49 @@
+h1 {
+    color: var(--darkgray);
+    font-family: 'Fraunces',
+        serif;
+    position: absolute;
+    top: 200px;
+}
+
+h3 {
+    font-family: 'Barlow',
+        sans-serif;
+    color: var(--mediumgray);
+}
+
+/* .break {
+    text-align: end;
+} */
+
+.container {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 39.0625rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+.img-col {
+    flex-basis: 50%;
+}
+
+.text-col {
+    flex-basis: 50%;
+}
+
+.img-col2 {
+    flex-basis: 50%;
+    position: absolute;
+    top: 562px;
+}
+
+.text-col2 {
+    flex-basis: 50%;
+    position: absolute;
+    top: 600px;
+    left: 800px;
+}
