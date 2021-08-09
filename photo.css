@@ -1,49 +1,66 @@
 h1 {
-    color: var(--darkgray);
-    font-family: 'Fraunces',
-        serif;
-    position: absolute;
-    top: 200px;
+  color: var(--darkgray);
+  font-family: "Fraunces", serif;
+  /* position: absolute;
+  top: 200px;
+  left: 200px; */
 }
 
 h3 {
-    font-family: 'Barlow',
-        sans-serif;
-    color: var(--mediumgray);
+  font-family: "Barlow", sans-serif;
+  color: var(--mediumgray);
 }
 
-/* .break {
-    text-align: end;
-} */
-
 .container {
-    display: flex;
-    align-items: center;
-    position: absolute;
-    top: 39.0625rem;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 39.0625rem;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .img-col {
-    flex-basis: 50%;
+  flex-basis: 50%;
 }
 
 .text-col {
-    flex-basis: 50%;
+  flex-basis: 50%;
+}
+
+#brand1 {
+  position: absolute;
+  top: 150px;
+  left: 150px;
 }
 
 .img-col2 {
-    flex-basis: 50%;
-    position: absolute;
-    top: 562px;
+  flex-basis: 50%;
+  position: absolute;
+  top: 35.125rem;
+  width: 50%;
 }
 
 .text-col2 {
-    flex-basis: 50%;
-    position: absolute;
-    top: 600px;
-    left: 800px;
+  flex-basis: 50%;
+  position: absolute;
+  top: 600px;
+  left: 800px;
+}
+
+.img-text-col3 {
+  flex-basis: 50%;
+  position: absolute;
+  top: 1124px;
+  width: 50%;
+}
+
+.img-text-col4 {
+  flex-basis: 50%;
+  position: absolute;
+  top: 1124px;
+  right: 0;
+  width: 50%;
 }

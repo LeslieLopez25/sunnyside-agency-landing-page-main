@@ -1,98 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
 
-    <title>Frontend Mentor | Sunnyside agency landing page</title>
-    <link rel="stylesheet" href="styles.css" />
-    <!-- Font Awesome -->
-    <script
-      src="https://kit.fontawesome.com/a585b45142.js"
-      crossorigin="anonymous"
-    ></script>
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
-  </head>
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a585b45142.js" crossorigin="anonymous"></script>
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
 
-  <body>
-    <!-- navbar -->
-    <section class="nav-container">
-      <nav class="navbar">
-        <h1 id="navbar-logo"><img src="images/logo.svg" alt="" /></h1>
-        <div class="menu-toggle" id="mobile-menu">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-        <ul class="nav-menu">
-          <li><a href="#" class="nav-links">About</a></li>
-          <li><a href="#" class="nav-links">Services</a></li>
-          <li><a href="#" class="nav-links">Projects</a></li>
-          <li><a href="#" class="nav-links nav-links-btn">CONTACT</a></li>
-        </ul>
-      </nav>
-    </section>
-    <!-- hero section -->
-    <section class="hero">
-      <h1 class="headline">WE ARE CREATIVES</h1>
-      <img class="arrow" src="images/icon-arrow-down.svg" alt="" />
-      <img
-        class="header"
-        src="images/desktop/image-header.jpg"
-        alt=""
-        id="main-img"
-      />
-      <div class="icon"></div>
-    </section>
-    <!-- columns section-->
-    <section class="container">
-      <div class="text-col">
-        <h1>
-          Transform your <span class="break"><br />brand</span>
-        </h1>
-        <h3>
-          We are a full-service creative agency specializing in helping brands
-          grow fast. Engage your clients through compelling visuals that do most
-          of the marketing for you.
-        </h3>
-        <button class="yellow">Learn more</button>
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- navbar -->
+  <section class="nav-container">
+    <nav class="navbar">
+      <img id="navbar-logo" src="images/logo.svg" alt="" />
+      <div class="menu-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
       </div>
-      <div class="img-col">
-        <img src="images/desktop/image-transform.jpg" alt="" />
-      </div>
-      <div class="img-col2">
-        <img src="images/desktop/image-stand-out.jpg" alt="" />
-      </div>
-      <div class="text-col2">
-        <h1>
-          Stand out to the right<span class="break2"><br />audience</span>
-        </h1>
-        <h3>
-          Using a collaborative formula of designers, researchers,
-          photographers, videographers, and copywriters, we’ll build and extend
-          your brand in digital places.
-        </h3>
-        <button class="pink">Learn more</button>
-      </div>
-    </section>
-    <!-- 
+      <ul class="nav-menu">
+        <li><a href="#" class="nav-links">About</a></li>
+        <li><a href="#" class="nav-links">Services</a></li>
+        <li><a href="#" class="nav-links">Projects</a></li>
+        <li><a href="#" class="nav-links nav-links-btn">CONTACT</a></li>
+      </ul>
+    </nav>
+  </section>
+  <!-- hero section -->
+  <section class="hero">
+    <h1 class="headline">WE ARE CREATIVES</h1>
+    <img class="arrow" src="images/icon-arrow-down.svg" alt="" />
+    <img class="header" src="images/desktop/image-header.jpg" alt="" id="main-img" />
+    <div class="icon"></div>
+  </section>
+  <!-- Images section-->
+  <section class="container">
+    <div class="text-col">
+      <h1 id="brand1">
+        Transform your <span class="break"><br />brand</span>
+      </h1>
+      <h3 id="subtitle1">
+        We are a full-service creative agency specializing in helping brands
+        grow fast. Engage your clients through compelling visuals that do most
+        of the marketing for you.
+      </h3>
+      <button class="yellow">Learn more</button>
+    </div>
+    <div class="img-col">
+      <img src="images/desktop/image-transform.jpg" alt="" />
+    </div>
+    <div class="img-col2">
+      <img src="images/desktop/image-stand-out.jpg" alt="" />
+    </div>
+    <div class="text-col2">
+      <h1 id="brand2">
+        Stand out to the right<span class="break2"><br />audience</span>
+      </h1>
+      <h3 id="subtitle2">
+        Using a collaborative formula of designers, researchers,
+        photographers, videographers, and copywriters, we’ll build and extend
+        your brand in digital places.
+      </h3>
+      <button class="pink">Learn more</button>
+    </div>
+    <div class="img-text-col3">
+      <img src="images/desktop/image-graphic-design.jpg" alt="" />
+      <h1 id="brand3">
+        Transform your <span class="break"><br />brand</span>
+      </h1>
+      <h3 id="subtitle3">
+        We are a full-service creative agency specializing in helping brands
+        grow fast. Engage your clients through compelling visuals that do most
+        of the marketing for you.
+      </h3>
+    </div>
+    <div class="img-text-col4">
+      <img src="images/desktop/image-photography.jpg" alt="" />
+      <h1 id="brand4">
+        Transform your <span class="break"><br />brand</span>
+      </h1>
+      <h3 id="subtitle4">
+        We are a full-service creative agency specializing in helping brands
+        grow fast. Engage your clients through compelling visuals that do most
+        of the marketing for you.
+      </h3>
+    </div>
+  </section>
+  <!-- 
 Transform your brand
 
 We are a full-service creative agency specializing in helping brands grow fast.
@@ -135,11 +145,12 @@ Increase your credibility by getting the most stunning, high-quality photos that
   Projects
   Contact -->
 
-    <!-- <div class="attribution">
+  <!-- <div class="attribution">
     Challenge by
     <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
       href="#">Leslie Lopez</a>.
   </div> -->
-    <script src="./app.js"></script>
-  </body>
+  <script src="./app.js"></script>
+</body>
+
 </html>
