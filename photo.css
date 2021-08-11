@@ -1,9 +1,6 @@
 h1 {
   color: var(--darkgray);
   font-family: "Fraunces", serif;
-  /* position: absolute;
-  top: 200px;
-  left: 200px; */
 }
 
 h3 {
@@ -52,6 +49,10 @@ img {
     serif;
   font-size: 16px;
   text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: var(--yellow);
+  text-decoration-thickness: 6px;
+  cursor: pointer;
 }
 
 .img-col2 {
@@ -89,8 +90,9 @@ img {
     serif;
   font-size: 16px;
   text-transform: uppercase;
-  text-decoration-line: underline;
+  text-decoration: underline;
   text-decoration-color: var(--pink);
+  text-decoration-thickness: 6px;
   cursor: pointer;
 }
 

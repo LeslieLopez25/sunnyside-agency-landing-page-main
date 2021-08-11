@@ -1,0 +1,10 @@
+.testimonials {
+    background-color: var(--lightgray);
+}
+
+.testimonial-container {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 39.0625rem;
+}

@@ -8,7 +8,7 @@
   --darkgreen: #21564a;
   --mediumgreen: #407d6e;
   --lightgreen: #90d4c5;
-  --lightyellow: #fff0bc;
+  --yellow: #FED301;
   --darkgray: #23313d;
   --darkmediumgray: #626365;
   --mediumgray: #a9a9a9;
@@ -19,7 +19,7 @@
   --mediumblue: #0d5778;
   --lightestblue: #6fcfff;
   --lightblue: #3dbeff;
-  --lightpink: #feded2;
+  --pink: #FF7462;
 }
 
 * {
