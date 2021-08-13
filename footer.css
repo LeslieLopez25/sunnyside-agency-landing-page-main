@@ -1,0 +1,22 @@
+.footer {
+    background-color: var(--lightgreen);
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 3500px;
+    display: flex;
+}
+
+#footer-logo {
+    position: absolute;
+    top: 100px;
+    left: 600px;
+    filter: hue-rotate(var(--darkgreen));
+}
+
+.Links {
+    list-style: none;
+    font-family: "Barlow",
+        sans-serif;
+    display: grid;
+}

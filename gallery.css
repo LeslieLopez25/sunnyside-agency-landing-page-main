@@ -1,0 +1,11 @@
+.images {
+    background-color: var(--lightgray);
+    width: 100%;
+    position: absolute;
+    top: 3100px;
+    display: flex;
+}
+
+.gallery {
+    width: 50%;
+}
