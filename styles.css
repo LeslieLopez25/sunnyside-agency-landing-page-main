@@ -1,5 +1,5 @@
 /* Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Acme&family=Fraunces:wght@700;900&display=swap");
 
 @import url("hero.css");
 @import url("feature.css");
@@ -8,7 +8,7 @@
 @import url("footer.css");
 
 :root {
-  --darkgreen: #21564a;
+  --darkgreen: #2B7463;
   --mediumgreen: #407d6e;
   --lightgreen: #90d4c5;
   --yellow: #FED301;
@@ -43,10 +43,10 @@
 
 .navbar {
   display: grid;
-  grid-template-columns: 0.2fr auto 1fr;
+  grid-template-columns: 1fr auto 1fr;
   align-items: center;
   height: 5rem;
-  width: 90%;
+  width: 88%;
   max-width: 107.5rem;
   margin-right: 0;
 }
@@ -65,14 +65,15 @@
   text-align: center;
   width: 70%;
   justify-self: end;
-  position: absolute;
-  right: 0;
 }
 
 .nav-links {
   color: var(--white);
   text-decoration: none;
   font-family: "Barlow", sans-serif;
+  cursor: pointer;
+  position: relative;
+  left: 80px;
 }
 
 .nav-links:hover {
@@ -83,17 +84,23 @@
 .nav-links-btn {
   background-color: var(--white);
   color: #000;
+  text-align: center;
+  width: 7%;
+  position: relative;
+  bottom: 60px;
+  left: 1220px;
   font-family: "Fraunces", serif;
-  padding: 0.9375rem 1rem;
-  border-radius: 1.875rem;
+  padding: 12px 1px;
+  border-radius: 30px;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
 }
 
 .nav-links-btn:hover {
   background-color: var(--lightestblue);
   color: var(--white);
-  padding: 0.9375rem 1rem;
-  border-radius: 1.875rem;
-  transition: all 0.3s ease-out;
+  padding: 12px 1px;
+  border-radius: 30px;
 }
 
 .menu-toggle .bar {
