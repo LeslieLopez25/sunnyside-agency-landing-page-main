@@ -28,6 +28,7 @@ img {
 }
 
 #brand1 {
+  font-size: 36px;
   position: absolute;
   top: 150px;
   left: 105px;
@@ -85,6 +86,7 @@ a:hover::before {
 }
 
 #brand2 {
+  font-size: 36px;
   position: absolute;
   top: 100px;
   left: -30px;
@@ -94,7 +96,7 @@ a:hover::before {
   width: 85%;
   line-height: 1.6;
   margin-left: -30px;
-  margin-top: 180px;
+  margin-top: 220px;
 }
 
 #pink {
@@ -104,7 +106,7 @@ a:hover::before {
   cursor: pointer;
   font-weight: 800;
   position: absolute;
-  top: 300px;
+  top: 360px;
   left: -28px;
   font-family: "Fraunces",
     serif;
