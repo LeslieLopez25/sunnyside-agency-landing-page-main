@@ -41,7 +41,7 @@ img {
   margin-top: 60px;
 }
 
-a {
+#yellow {
   text-decoration: none;
   color: var(--darkgray);
   text-transform: uppercase;
@@ -54,7 +54,7 @@ a {
     serif;
 }
 
-a::before {
+#yellow::before {
   content: "";
   position: absolute;
   top: 13px;
@@ -67,7 +67,7 @@ a::before {
   transition: 0.35s ease-out;
 }
 
-a:hover::before {
+#yellow:hover::before {
   background: var(--yellow);
 }
 
