@@ -20,7 +20,11 @@ img {
 }
 
 .img-col {
-  flex-basis: 50%;
+  width: 50.2%;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .text-col {
@@ -30,7 +34,7 @@ img {
 #brand1 {
   font-size: 36px;
   position: absolute;
-  top: 150px;
+  top: 130px;
   left: 105px;
 }
 
@@ -38,7 +42,7 @@ img {
   width: 69%;
   line-height: 1.6;
   margin-left: 105px;
-  margin-top: 60px;
+  margin-top: 250px;
 }
 
 #yellow {
@@ -72,9 +76,8 @@ img {
 }
 
 .img-col2 {
-  flex-basis: 50%;
   position: absolute;
-  top: 35.125rem;
+  top: 563px;
   width: 50%;
 }
 
