@@ -1,34 +1,33 @@
 h1 {
-  color: var(--darkgray);
+  color: var(--Very-dark-desaturated-blue);
   font-family: "Fraunces", serif;
 }
 
 h3 {
   font-family: "Barlow", sans-serif;
-  color: var(--mediumgray);
+  color: var(--Grayish-blue);
 }
 
 .container {
   display: flex;
   align-items: center;
   position: absolute;
-  top: 39.0625rem;
+  top: 625px;
 }
 
 img {
   max-width: 100%;
 }
 
-.img-col {
-  width: 50.2%;
-  height: 200px;
-  position: absolute;
-  top: 0;
-  right: 0;
+.text-col {
+  width: 670px;
+  height: 550px;
 }
 
-.text-col {
-  flex-basis: 50%;
+.img-col {
+  width: 679px;
+  height: auto;
+
 }
 
 #brand1 {
@@ -39,20 +38,20 @@ img {
 }
 
 #subtitle1 {
-  width: 69%;
+  width: 70%;
   line-height: 1.6;
   margin-left: 105px;
-  margin-top: 250px;
+  margin-top: 240px;
 }
 
 #yellow {
   text-decoration: none;
-  color: var(--darkgray);
+  color: var(--Very-dark-desaturated-blue);
   text-transform: uppercase;
   cursor: pointer;
   font-weight: 800;
   position: absolute;
-  top: 390px;
+  top: 380px;
   left: 105px;
   font-family: "Fraunces",
     serif;
@@ -65,14 +64,14 @@ img {
   left: -8px;
   width: 115%;
   height: 0.7rem;
-  background: var(--lightyellow);
+  background: var(--Lightyellow);
   z-index: -1;
   border-radius: 0.5rem;
   transition: 0.35s ease-out;
 }
 
 #yellow:hover::before {
-  background: var(--yellow);
+  background: var(--Yellow);
 }
 
 .img-col2 {
@@ -106,7 +105,7 @@ img {
 
 #pink {
   text-decoration: none;
-  color: var(--darkgray);
+  color: var(--Very-dark-desaturated-blue);
   text-transform: uppercase;
   cursor: pointer;
   font-weight: 800;
@@ -123,14 +122,14 @@ img {
   margin-left: 0;
   width: 115%;
   height: 0.7rem;
-  background: var(--lightpink);
+  background: var(--Lightpink);
   z-index: -1;
   border-radius: 0.5rem;
   transition: 0.35s ease-out;
 }
 
 #pink:hover::before {
-  background: var(--pink);
+  background: var(--Soft-red);
 }
 
 .img-text-col3 {
@@ -141,14 +140,14 @@ img {
 }
 
 #brand3 {
-  color: var(--darkgreen);
+  color: var(--Dark-desaturated-cyan);
   position: absolute;
   bottom: 190px;
   left: 260px;
 }
 
 #subtitle3 {
-  color: var(--darkgreen);
+  color: var(--Dark-desaturated-cyan);
   position: absolute;
   top: 410px;
   left: 150px;
@@ -166,14 +165,14 @@ img {
 }
 
 #brand4 {
-  color: var(--darkblue);
+  color: var(--Dark-blue);
   position: absolute;
   bottom: 190px;
   left: 260px;
 }
 
 #subtitle4 {
-  color: var(--mediumblue);
+  color: var(--Dark-blue);
   position: absolute;
   top: 410px;
   left: 150px;
