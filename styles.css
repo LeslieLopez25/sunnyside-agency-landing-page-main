@@ -82,7 +82,7 @@ img {
   text-decoration: none;
   font-family: "Barlow", sans-serif;
   position: relative;
-  left: 80px;
+  left: 40px;
   cursor: pointer;
 }
 
@@ -536,7 +536,7 @@ img {
     font-family: sans-serif;
     font-weight: bold;
     line-height: 60px;
-    margin-left: -70px;
+    margin-left: -30px;
     bottom: 90px;
     width: 100%;
   }
@@ -574,5 +574,57 @@ img {
 
   .menu-toggle:hover {
     cursor: pointer;
+  }
+
+  /* Hero section */
+  #headline {
+    position: relative;
+    top: 20px;
+    left: 5px;
+    font-size: 45px;
+  }
+
+  #arrow {
+    position: absolute;
+    top: 285px;
+    left: 200px;
+  }
+
+  /* Feature section */
+  .img-col {
+    position: absolute;
+    top: -67px;
+  }
+
+  /* Gallery section */
+  .images {
+    display: grid;
+    grid-template-columns: 80% 80%;
+    margin-top: -33px;
+    max-width: 100%;
+  }
+
+  .gallery {
+    width: 50%;
+  }
+
+  /* Footer section */
+  #footer-title {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+  }
+
+  .Links {
+    position: relative;
+    top: 130px;
+    left: 40px;
+  }
+
+  .social-icons i {
+    position: relative;
+    top: 200px;
+    left: -250px;
+    margin-left: 30px;
   }
 }
