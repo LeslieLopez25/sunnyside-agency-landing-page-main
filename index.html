@@ -5,23 +5,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
-
   <title>Frontend Mentor | Sunnyside agency landing page</title>
   <link rel="stylesheet" href="styles.css" />
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/a585b45142.js" crossorigin="anonymous"></script>
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
 <body>
@@ -52,20 +40,22 @@
     </nav>
   </section>
   <!-- hero section start -->
-  <section>
+  <header>
     <h1 id="headline">WE ARE CREATIVES</h1>
     <img id="arrow" src="images/icon-arrow-down.svg" alt="arrow-icon" />
-    <img id="header" src="images/desktop/image-header.jpg" srcset="images/desktop/image-header.jpg 2880w, 
-             images/mobile/image-header.jpg 750w" alt="header" />
-  </section>
+    <img id="top-img" src="images/desktop/image-header.jpg" srcset="images/desktop/image-header.jpg 2880w, 
+             images/mobile/image-header.jpg 750w" alt="top-img" />
+  </header>
   <!-- Feature section start -->
   <section class="container">
     <div class="text-col">
-      <h1 id="brand1">Transform your <br />brand</h1>
-      <h3 id="subtitle1">
-        We are a full-service creative agency specializing in helping brands
-        grow fast. Engage your clients through compelling visuals that do most
-        of the marketing for you.
+      <h1 id="brand1">Transform your brand</h1>
+      <p>
+        <h3 id="subtitle1">
+          We are a full-service creative agency specializing in helping brands
+          grow fast. Engage your clients through compelling visuals that do most
+          of the marketing for you.
+      </p>
       </h3>
       <a id="yellow" href="#">
         Learn more
@@ -73,41 +63,47 @@
     </div>
     <div class="img-col">
       <img id="desktop1" src="images/desktop/image-transform.jpg"
-        srcset="images/desktop/image-transform.jpg 720w, images/mobile/image-transform.jpg 750w" alt="" />
+        srcset="images/desktop/image-transform.jpg 720w, images/mobile/image-transform.jpg 750w" alt="Egg" />
     </div>
     <div class="img-col2">
       <img src="images/desktop/image-stand-out.jpg"
-        srcset="images/desktop/image-stand-out.jpg 720w, images/mobile/image-stand-out.jpg 750w" alt="" />
+        srcset="images/desktop/image-stand-out.jpg 720w, images/mobile/image-stand-out.jpg 750w" alt="Cup" />
     </div>
     <div class="text-col2">
       <h1 id="brand2">Stand out to the right audience</h1>
-      <h3 id="subtitle2">
-        Using a collaborative formula of designers, researchers,
-        photographers, videographers, and copywriters, we’ll build and extend
-        your brand in digital places.
+      <p>
+        <h3 id="subtitle2">
+          Using a collaborative formula of designers, researchers,
+          photographers, videographers, and copywriters, we’ll build and extend
+          your brand in digital places.
+      </p>
       </h3>
       <a id="pink" href="#">Learn more</a>
     </div>
     <div class="img-text-col3">
       <img id="img3" src="images/desktop/image-graphic-design.jpg"
-        src="images/desktop/image-graphic-design.jpg 720w, images/mobile/image-graphic-design 750w" alt="" />
+        src="images/desktop/image-graphic-design.jpg 720w, images/mobile/image-graphic-design 750w" alt="Cherry" />
       <h1 id="brand3">
         Graphic design
       </h1>
-      <h3 id="subtitle3">
-        Great design makes you memorable. We deliver artwork that underscores
-        your brand message and captures potential clients’ attention.
+      <p>
+        <h3 id="subtitle3">
+          Great design makes you memorable. We deliver artwork that underscores
+          your brand message and captures potential clients’ attention.
+      </p>
       </h3>
     </div>
     <div class="img-text-col4">
       <img id="img4" src="images/desktop/image-photography.jpg"
-        src="images/desktop/image-photography.jpg 720w, images/mobile/image-photography 750w" alt="" />
+        src="images/desktop/image-photography.jpg 720w, images/mobile/image-photography 750w" alt="Orange" />
       <h1 id="brand4">
         Photography
       </h1>
-      <h3 id="subtitle4">
-        Increase your credibility by getting the most stunning, high-quality
-        photos that improve your business image.
+      <p>
+        <h3 id="subtitle4">
+          Increase your credibility by getting the most stunning, high-quality
+          photos that improve your business image.
+      </p>
       </h3>
     </div>
   </section>
@@ -115,25 +111,25 @@
   <section class="testimonials">
     <h2 class="client-text">Client Testimonials</h2>
     <div class="testimonial1">
-      <img class="profile-img" id="profile1" src="./images/image-emily.jpg" alt="" />
-      <div class="main-content" id="main1">
+      <img class="profile-img" id="profile1" src="./images/image-emily.jpg" alt="Emily" />
+      <p class="main-content" id="main1">
         We put our trust in Sunnyside and they delivered, making sure our
         needs were met and deadlines were always hit.
-      </div>
+      </p>
       <h3 class="name" id="name1">Emily R.</h3>
       <h4 id="title-1">Marketing Director</h4>
     </div>
     <div class="testimonial2">
-      <img class="profile-img" id="profile2" src="./images/image-thomas.jpg" alt="" />
-      <div class="main-content" id="main2">
+      <img class="profile-img" id="profile2" src="./images/image-thomas.jpg" alt="Thomas" />
+      <p class="main-content" id="main2">
         Sunnyside’s enthusiasm coupled with their keen interest in our brand’s
         success made it a satisfying and enjoyable experience.
-      </div>
+      </p>
       <h3 class="name" id="name2">Thomas S.</h3>
       <h4 id="title-2">Chief Operating Officer</h4>
     </div>
     <div class="testimonial3">
-      <img class="profile-img" id="profile3" src="./images/image-jennie.jpg" alt="" />
+      <img class="profile-img" id="profile3" src="./images/image-jennie.jpg" alt="Jennie" />
       <p class="main-content" id="main3">
         Incredible end result! Our sales increased over 400% when we worked
         with Sunnyside. Highly recommended!
@@ -144,13 +140,13 @@
   </section>
   <!-- Image section start -->
   <section class="images">
-    <img class="gallery" src="./images/desktop/image-gallery-milkbottles.jpg" alt="" />
-    <img class="gallery" src="./images/desktop/image-gallery-orange.jpg" alt="" />
-    <img class="gallery" src="./images/desktop/image-gallery-cone.jpg" alt="" />
-    <img class="gallery" src="./images/desktop/image-gallery-sugarcubes.jpg" alt="" />
+    <img class="gallery" src="./images/desktop/image-gallery-milkbottles.jpg" alt="Milkbottles" />
+    <img class="gallery" src="./images/desktop/image-gallery-orange.jpg" alt="Half-orange" />
+    <img class="gallery" src="./images/desktop/image-gallery-cone.jpg" alt="Cone" />
+    <img class="gallery" src="./images/desktop/image-gallery-sugarcubes.jpg" alt="Sugarcubes" />
   </section>
   <!-- Footer section start -->
-  <section class="footer">
+  <footer>
     <div id="footer-title">sunnyside</div>
     <ul class="footer-menu">
       <li>
@@ -169,13 +165,13 @@
       <i class="fab fa-twitter"></i>
       <i class="fab fa-pinterest"></i>
     </div>
-  </section>
-
-  <!-- <div class="attribution">
-    Challenge by
-    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
-      href="#">Leslie Lopez</a>.
-  </div> -->
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
+        href="#">Leslie
+        Lopez</a>.
+    </div>
+  </footer>
   <script src="./app.js"></script>
 </body>
 
