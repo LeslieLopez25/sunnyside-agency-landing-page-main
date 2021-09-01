@@ -32,6 +32,7 @@
 
 html,
 body {
+  font-size: 18px;
   width: 100%;
   height: 100%;
   overflow-x: hidden;
@@ -47,10 +48,13 @@ h3 {
   color: var(--Grayish-blue);
 }
 
+a {
+  text-decoration: none;
+}
+
 p {
   color: var(--Grayish-blue);
-  font-family: "Barlow",
-    sans-serif;
+  font-family: "Barlow", sans-serif;
   font-size: 18.5px;
 }
 
@@ -60,7 +64,6 @@ img {
 }
 
 /* Navbar */
-
 .nav-container {
   padding-bottom: 30px;
   width: 100%;
@@ -95,9 +98,8 @@ img {
 .nav-links {
   color: var(--White);
   font-family: "Barlow", sans-serif;
-  text-decoration: none;
   position: relative;
-  left: 70px;
+  left: 60px;
   cursor: pointer;
 }
 
@@ -120,7 +122,6 @@ img {
   background-color: var(--White);
   font-family: "Fraunces", serif;
   font-size: 13px;
-  text-decoration: none;
   position: absolute;
   top: 20px;
   left: 1230px;
@@ -146,13 +147,13 @@ img {
 }
 
 /* Hero section */
-#top-img,
+#main-img,
 #headline,
 #arrow {
   position: absolute;
 }
 
-#top-img {
+#main-img {
   background-size: cover;
   bottom: 0;
   z-index: -1;
@@ -161,17 +162,19 @@ img {
 #headline {
   color: #fff;
   font-family: "Fraunces", serif;
-  font-size: 3.7rem;
-  letter-spacing: 0.8rem;
+  font-size: 59.2px;
+  letter-spacing: 12.8px;
   text-align: center;
+  text-transform: uppercase;
   top: 120px;
-  left: 280px;
+  left: 250px;
   z-index: 100;
 }
 
 #arrow {
-  top: 255px;
+  top: 230px;
   left: 650px;
+  height: 90px;
 }
 
 /* Feature section */
@@ -187,21 +190,21 @@ img {
   height: 550px;
 }
 
-#brand1,
-#brand2,
-#brand3,
-#brand4 {
+.sub-headline-1,
+.sub-headline-2,
+.sub-headline-3,
+.sub-headline-4 {
   position: absolute;
   width: 400px;
 }
 
-#brand1 {
+.sub-headline-1 {
   font-size: 36px;
   top: 130px;
   left: 105px;
 }
 
-#subtitle1 {
+.sub-headline-description-1 {
   line-height: 1.6;
   margin-left: 105px;
   margin-top: 240px;
@@ -213,7 +216,6 @@ img {
   color: var(--Very-dark-desaturated-blue);
   font-family: "Fraunces", serif;
   font-weight: 800;
-  text-decoration: none;
   text-transform: uppercase;
   position: absolute;
   cursor: pointer;
@@ -251,8 +253,8 @@ img {
 
 .img-col2,
 .text-col2,
-.img-text-col3,
-.img-text-col4 {
+.img-text-col,
+.img-text-col2 {
   position: absolute;
 }
 
@@ -266,14 +268,14 @@ img {
   left: 800px;
 }
 
-#brand2 {
+.sub-headline-2 {
   font-size: 36px;
   word-break: break-all;
   top: 100px;
   left: -30px;
 }
 
-#subtitle2 {
+.sub-headline-description-2 {
   line-height: 1.6;
   margin-left: -30px;
   margin-top: 225px;
@@ -293,27 +295,27 @@ img {
   background: var(--Soft-red);
 }
 
-.img-text-col3 {
+.img-text-col {
   top: 1123px;
   width: 679px;
 }
 
-#brand3,
-#subtitle3 {
+.sub-headline-3,
+.sub-headline-description-3 {
   color: var(--Dark-desaturated-cyan);
 }
 
-#brand3 {
+.sub-headline-3 {
   bottom: 190px;
   left: 250px;
 }
 
-#subtitle3,
-#subtitle4 {
+.sub-headline-description-3,
+.sub-headline-description-4 {
   position: absolute;
 }
 
-#subtitle3 {
+.sub-headline-description-3 {
   text-align: center;
   line-height: 1.6;
   top: 410px;
@@ -321,23 +323,23 @@ img {
   width: 61%;
 }
 
-.img-text-col4 {
+.img-text-col2 {
   top: 1123px;
   right: 0;
   width: 679px;
 }
 
-#brand4,
-#subtitle4 {
+.sub-headline-4,
+.sub-headline-description-4 {
   color: var(--Dark-blue);
 }
 
-#brand4 {
+.sub-headline-4 {
   bottom: 190px;
   left: 260px;
 }
 
-#subtitle4 {
+.sub-headline-description-4 {
   text-align: center;
   line-height: 1.6;
   top: 410px;
@@ -352,7 +354,7 @@ img {
   width: 100%;
 }
 
-.client-text {
+#client-title {
   color: var(--Grayish-blue);
   font-family: "Fraunces", serif;
   letter-spacing: 0.5ch;
@@ -362,22 +364,22 @@ img {
   left: 450px;
 }
 
-.testimonial1,
-.testimonial2,
-.testimonial3 {
+.testimonial-section-1,
+.testimonial-section-2,
+.testimonial-section-3 {
   position: absolute;
   top: 560px;
 }
 
-.testimonial1 {
+.testimonial-section-1 {
   left: 150px;
 }
 
-.testimonial2 {
+.testimonial-section-2 {
   left: 600px;
 }
 
-.testimonial3 {
+.testimonial-section-3 {
   left: 1040px;
 }
 
@@ -387,7 +389,7 @@ img {
   height: 100px;
 }
 
-.main-content {
+.testimonial-content {
   color: var(--Very-dark-grayish-blue);
   font-family: "Barlow", sans-serif;
   line-height: 1.6;
@@ -399,9 +401,9 @@ img {
   height: 320px;
 }
 
-#profile1,
-#profile2,
-#profile3 {
+.profile-img-1,
+.profile-img-2,
+.profile-img-3 {
   position: relative;
   left: 40px;
 }
@@ -415,24 +417,25 @@ img {
   width: 100%;
 }
 
-#name1,
-#name2,
-#name3 {
+.name1,
+.name2,
+.name3 {
   position: absolute;
 }
 
-#name1,
-#name3 {
+.name1,
+.name3 {
   left: 55px;
 }
 
-#name2 {
+.name2 {
   left: 45px;
+  width: 110px;
 }
 
-#title-1,
-#title-2,
-#title-3 {
+.title-1,
+.title-2,
+.title-3 {
   color: var(--Dark-grayish-blue);
   font-family: "Barlow", sans-serif;
   position: absolute;
@@ -440,15 +443,16 @@ img {
   width: 170%;
 }
 
-#title-1 {
+.title-1 {
   left: 30px;
 }
 
-#title-2 {
+.title-2 {
   left: 15px;
+  width: 185px;
 }
 
-#title-3 {
+.title-3 {
   left: 40px;
 }
 
@@ -485,7 +489,7 @@ footer {
   font-size: 28px;
   font-weight: 900;
   top: 60px;
-  left: 595px;
+  left: 590px;
 }
 
 .footer-menu {
@@ -609,7 +613,7 @@ footer {
     width: 150px;
     position: absolute;
     top: 210px;
-    left: 0;
+    left: -10px;
     transform: translateX(90%);
     transition: all 0.4s ease-out;
   }
@@ -666,27 +670,27 @@ footer {
     width: 100%;
   }
 
-  #brand1,
-  #brand2,
-  #brand3,
-  #brand4 {
+  .sub-headline-1,
+  .sub-headline-2,
+  .sub-headline-3,
+  .sub-headline-4 {
     position: absolute;
   }
 
-  #brand1 {
+  .sub-headline-1 {
     word-break: break-all;
     left: 118px;
     width: 300px;
   }
 
-  #subtitle1,
-  #subtitle2,
-  #subtitle3,
-  #subtitle4 {
+  .sub-headline-description-1,
+  .sub-headline-description-2,
+  .sub-headline-description-3,
+  .sub-headline-description-4 {
     position: absolute;
   }
 
-  #subtitle1 {
+  .sub-headline-description-1 {
     text-align: center;
     left: -10px;
     width: 350px;
@@ -695,7 +699,7 @@ footer {
   #yellow {
     position: absolute;
     top: 430px;
-    left: 215px;
+    left: 205px;
   }
 
   .img-col2 {
@@ -710,27 +714,27 @@ footer {
     width: 385px;
   }
 
-  #brand2 {
+  .sub-headline-2 {
     left: 35px;
     width: 75%;
   }
 
-  #subtitle2 {
+  .sub-headline-description-2 {
     left: 40px;
   }
 
   #pink {
     position: absolute;
     top: 410px;
-    left: 118px;
+    left: 110px;
   }
 
-  .img-text-col3,
-  .img-text-col4 {
+  .img-text-col,
+  .img-text-col2 {
     position: absolute;
   }
 
-  .img-text-col3 {
+  .img-text-col {
     top: 1580px;
     width: 437px;
   }
@@ -744,19 +748,19 @@ footer {
     top: -10px;
   }
 
-  #brand3 {
+  .sub-headline-3 {
     font-size: 35px;
     top: 450px;
     left: 95px;
   }
 
-  #subtitle3 {
+  .sub-headline-description-3 {
     top: 525px;
     left: 20px;
     width: 400px;
   }
 
-  .img-text-col4 {
+  .img-text-col2 {
     top: 2080px;
     left: 63px;
     width: 437px;
@@ -767,13 +771,13 @@ footer {
     left: -63px;
   }
 
-  #brand4 {
+  .sub-headline-4 {
     font-size: 35px;
     top: 650px;
     left: 45px;
   }
 
-  #subtitle4 {
+  .sub-headline-description-4 {
     top: 730px;
     left: -45px;
     width: 400px;
@@ -786,7 +790,7 @@ footer {
     width: 370px;
   }
 
-  .client-text {
+  #client-title {
     font-size: 18px;
     position: absolute;
     top: 370px;
@@ -794,114 +798,115 @@ footer {
     width: 350px;
   }
 
-  .testimonial1,
-  .testimonial2,
-  .testimonial3 {
+  .testimonial-section-1,
+  .testimonial-section-2,
+  .testimonial-section-3 {
     position: absolute;
   }
 
-  .testimonial1 {
+  .testimonial-section-1 {
     top: 480px;
     left: 170px;
   }
 
-  .main-content {
+  .testimonial-content {
     position: relative;
   }
 
-  #main1,
-  #main2,
-  #main3 {
+  .testimonial-content-1,
+  .testimonial-content-2,
+  .testimonial-content-3 {
     position: absolute;
   }
 
-  #name1,
-  #name2,
-  #name3 {
+  .name1,
+  .name2,
+  .name3 {
     position: absolute;
   }
 
-  #title-1,
-  #title-2,
-  #title-3 {
+  .title-1,
+  .title-2,
+  .title-3 {
     position: absolute;
   }
 
-  #profile1,
-  #profile3 {
+  .profile-img-1,
+  .profile-img-2,
+  .profile-img-3 {
     position: relative;
   }
 
-  #profile1 {
+  .profile-img-1 {
     top: -20px;
     left: 10px;
   }
 
-  #main1 {
+  .testimonial-content-1 {
     top: 120px;
     left: -110px;
     width: 320px;
   }
 
-  #name1 {
+  .name1 {
     top: 240px;
-    left: 20px;
+    left: 15px;
   }
 
-  #title-1 {
+  .title-1 {
     top: 275px;
-    left: 0;
+    left: -15px;
   }
 
-  .testimonial2 {
+  .testimonial-section-2 {
     top: 800px;
     left: 150px;
   }
 
-  #profile2 {
-    margin-top: 50px;
-    margin-left: 0;
+  .profile-img-2 {
+    top: 50px;
+    left: 33px;
   }
 
-  #main2 {
+  .testimonial-content-2 {
     text-align: center;
     margin-top: 40px;
     margin-left: 0;
     width: 340px;
   }
 
-  #name2 {
+  .name2 {
     margin-top: 35px;
-    margin-left: -5px;
+    margin-left: -15px;
   }
 
-  #title-2 {
+  .title-2 {
     margin-top: 35px;
-    margin-left: 0px;
+    margin-left: -20px;
   }
 
-  .testimonial3 {
+  .testimonial-section-3 {
     top: 1250px;
     left: 180px;
   }
 
-  #profile3 {
-    left: 20px;
+  .profile-img-3 {
+    left: 0;
   }
 
-  #main3 {
+  .testimonial-content-3 {
     left: -120px;
     width: 340px;
   }
 
-  #name3 {
+  .name3 {
     top: 265px;
-    left: 30px;
+    left: 0px;
   }
 
-  #title-3 {
+  .title-3 {
     top: 300px;
-    left: 15px;
+    left: -17px;
   }
 
   /* Gallery section */
@@ -924,7 +929,7 @@ footer {
   #footer-title {
     position: absolute;
     top: 50px;
-    left: 150px;
+    left: 160px;
   }
 
   .Links {
@@ -943,7 +948,7 @@ footer {
     display: ruby-text;
     position: relative;
     top: 200px;
-    left: -200px;
+    left: -220px;
     margin-left: 30px;
   }
 
