@@ -58,6 +58,10 @@ p {
   font-size: 18.5px;
 }
 
+li {
+  text-decoration: none;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -347,7 +351,7 @@ img {
   width: 61%;
 }
 
-/* Client testimonials */
+/* Client testimonials section */
 .testimonials {
   position: absolute;
   top: 2000px;
@@ -542,7 +546,6 @@ footer {
   color: var(--Purple);
 }
 
-/* Nav-menu responsive */
 
 @media screen and (max-width: 460px) {
   .nav-container {
@@ -644,7 +647,7 @@ footer {
   }
 
   #arrow {
-    top: 287px;
+    top: 326px;
     left: 200px;
   }
 
@@ -956,5 +959,155 @@ footer {
     position: absolute;
     top: 260px;
     left: 110px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .nav-container {
+    position: absolute;
+  }
+
+  .nav-links-btn {
+    position: absolute;
+    left: 1305px;
+  }
+
+  /* Hero section */
+  #main-img {
+    position: relative;
+  }
+
+  #headline {
+    position: absolute;
+    top: 200px;
+    left: 310px;
+  }
+
+  #arrow {
+    position: absolute;
+    top: 360px;
+    left: 700px;
+    height: 10%;
+  }
+
+  /* Feature section */
+  .container {
+    position: absolute;
+    top: 800px;
+    left: 50px;
+  }
+
+  .sub-headline-1 {
+    font-size: 40px;
+  }
+
+  .sub-headline-description-1 {
+    width: 459px;
+  }
+
+  #yellow {
+    position: absolute;
+    top: 410px;
+  }
+
+  .text-col {
+    position: relative;
+    left: -20px;
+  }
+
+  .sub-headline-1 {
+    position: absolute;
+    top: 120px;
+  }
+
+  .sub-headline-description-1 {
+    position: relative;
+    top: 30px;
+  }
+
+  .img-col {
+    position: relative;
+    top: 0;
+    right: -25px;
+    width: 55%;
+    height: 50%;
+  }
+
+  .img-col2 {
+    position: absolute;
+    top: 616px;
+    left: -50px;
+    width: 52.1%;
+    height: 50%;
+  }
+
+  .text-col2 {
+    position: absolute;
+    top: 670px;
+    left: 850px;
+  }
+
+  .img-text-col {
+    position: absolute;
+    top: 1219px;
+    left: -50px;
+    width: 52.1%;
+  }
+
+  .sub-headline-description-3 {
+    position: absolute;
+    top: 450px;
+  }
+
+  .img-text-col2 {
+    position: absolute;
+    top: 1219px;
+    right: -8px;
+    width: 52.1%;
+  }
+
+  .sub-headline-description-4 {
+    position: absolute;
+    top: 450px;
+    width: 385px
+  }
+
+  /* Client testimonials section */
+  .testimonials {
+    position: absolute;
+    top: 2350px;
+  }
+
+  /* Image section */
+  .images {
+    position: absolute;
+    top: 3400px;
+  }
+
+  /* Footer section */
+  footer {
+    position: absolute;
+    top: 3847px;
+    height: 29%;
+  }
+
+  #footer-title {
+    position: absolute;
+    left: 630px;
+  }
+
+  .Links {
+    position: relative;
+    left: 75px;
+  }
+
+  .social-icons i {
+    position: relative;
+    right: 640px;
+  }
+
+  .attribution {
+    position: absolute;
+    left: 580px;
   }
 }
