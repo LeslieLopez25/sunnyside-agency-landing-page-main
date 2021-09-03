@@ -36,6 +36,7 @@ body {
   width: 100%;
   height: 100%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 h2 {
@@ -474,8 +475,8 @@ img {
 
 /* Footer section */
 footer,
-.attribution,
-#footer-title {
+#footer-title,
+.attribution {
   position: absolute;
 }
 
@@ -546,8 +547,8 @@ footer {
   color: var(--Purple);
 }
 
-
-@media screen and (max-width: 460px) {
+/* Mobile media query */
+@media screen and (max-width: 375px) {
   .nav-container {
     position: relative;
     z-index: 1000;
@@ -561,7 +562,7 @@ footer {
     position: absolute;
     top: 105px;
     left: -100%;
-    width: 91%;
+    width: 89%;
     opacity: 0;
     transition: all 0.5s ease;
   }
@@ -586,8 +587,8 @@ footer {
     content: "";
     margin: 205px;
     position: absolute;
-    bottom: 60px;
-    left: 143px;
+    bottom: 65px;
+    left: 79px;
     width: 50px;
     height: 50px;
   }
@@ -616,7 +617,7 @@ footer {
     width: 150px;
     position: absolute;
     top: 210px;
-    left: -10px;
+    left: -42px;
     transform: translateX(90%);
     transition: all 0.4s ease-out;
   }
@@ -635,20 +636,26 @@ footer {
   }
 
   /* Hero section */
+  #main-img,
   #headline,
   #arrow {
     position: absolute;
   }
 
+  #main-img {
+    top: 0;
+  }
+
   #headline {
-    top: 120px;
+    top: 140px;
     left: 5px;
-    font-size: 45px;
+    font-size: 38px;
   }
 
   #arrow {
-    top: 326px;
-    left: 200px;
+    top: 297px;
+    left: 180px;
+    height: 10%;
   }
 
   /* Feature section */
@@ -662,14 +669,14 @@ footer {
   }
 
   .img-col {
-    top: -69px;
-    width: 437px;
+    top: -87px;
+    width: 375px;
   }
 
   .text-col {
     text-align: center;
-    top: 225px;
-    left: -50px;
+    top: 180px;
+    left: -80px;
     width: 100%;
   }
 
@@ -706,14 +713,14 @@ footer {
   }
 
   .img-col2 {
-    margin-top: 180px;
-    width: 437px;
+    margin-top: 140px;
+    width: 375px;
   }
 
   .text-col2 {
     text-align: center;
-    top: 1070px;
-    left: 50px;
+    top: 990px;
+    left: 10px;
     width: 385px;
   }
 
@@ -738,8 +745,8 @@ footer {
   }
 
   .img-text-col {
-    top: 1580px;
-    width: 437px;
+    top: 1500px;
+    width: 375px;
   }
 
   #img3,
@@ -753,20 +760,21 @@ footer {
 
   .sub-headline-3 {
     font-size: 35px;
-    top: 450px;
-    left: 95px;
+    top: 390px;
+    left: 55px;
   }
 
   .sub-headline-description-3 {
-    top: 525px;
-    left: 20px;
-    width: 400px;
+    font-size: 15px;
+    top: 460px;
+    left: 25px;
+    width: 330px;
   }
 
   .img-text-col2 {
-    top: 2080px;
+    top: 1901px;
     left: 63px;
-    width: 437px;
+    width: 375px;
   }
 
   #img4 {
@@ -776,20 +784,22 @@ footer {
 
   .sub-headline-4 {
     font-size: 35px;
-    top: 650px;
-    left: 45px;
+    top: 590px;
+    left: 5px;
   }
 
   .sub-headline-description-4 {
-    top: 730px;
+    font-size: 15px;
+    top: 660px;
     left: -45px;
-    width: 400px;
+    width: 330px;
   }
 
   /* Testimonials section */
   .testimonials {
     position: absolute;
-    top: 3300px;
+    top: 3000px;
+    left: -30px;
     width: 370px;
   }
 
@@ -863,7 +873,7 @@ footer {
 
   .testimonial-section-2 {
     top: 800px;
-    left: 150px;
+    left: 135px;
   }
 
   .profile-img-2 {
@@ -898,7 +908,7 @@ footer {
   }
 
   .testimonial-content-3 {
-    left: -120px;
+    left: -130px;
     width: 340px;
   }
 
@@ -917,7 +927,7 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 1857px;
+    margin-top: 1580px;
   }
 
   .gallery {
@@ -926,19 +936,28 @@ footer {
 
   /* Footer section */
   footer {
-    margin-top: 2000px;
+    margin-top: 1646px;
+    height: 26%;
+  }
+
+  #footer-title,
+  .attribution {
+    position: absolute;
   }
 
   #footer-title {
-    position: absolute;
     top: 50px;
-    left: 160px;
+    left: 105px;
+  }
+
+  .Links,
+  .social-icons i {
+    position: relative;
   }
 
   .Links {
-    position: relative;
     top: 130px;
-    left: 45px;
+    left: 0;
   }
 
   .social-icons {
@@ -949,26 +968,26 @@ footer {
 
   .social-icons i {
     display: ruby-text;
-    position: relative;
     top: 200px;
-    left: -220px;
+    left: -270px;
     margin-left: 30px;
   }
 
   .attribution {
-    position: absolute;
     top: 260px;
-    left: 110px;
+    left: 60px;
   }
 }
 
+/* Desktop media query */
 @media screen and (min-width: 1440px) {
-  .nav-container {
+
+  .nav-container,
+  .nav-links-btn {
     position: absolute;
   }
 
   .nav-links-btn {
-    position: absolute;
     left: 1305px;
   }
 
@@ -977,14 +996,17 @@ footer {
     position: relative;
   }
 
-  #headline {
+  #headline,
+  #arrow {
     position: absolute;
+  }
+
+  #headline {
     top: 200px;
     left: 310px;
   }
 
   #arrow {
-    position: absolute;
     top: 360px;
     left: 700px;
     height: 10%;
@@ -1010,8 +1032,12 @@ footer {
     top: 410px;
   }
 
-  .text-col {
+  .text-col,
+  .sub-headline-description-1 {
     position: relative;
+  }
+
+  .text-col {
     left: -20px;
   }
 
@@ -1021,7 +1047,6 @@ footer {
   }
 
   .sub-headline-description-1 {
-    position: relative;
     top: 30px;
   }
 
@@ -1033,8 +1058,12 @@ footer {
     height: 50%;
   }
 
-  .img-col2 {
+  .img-col2,
+  .text-col2 {
     position: absolute;
+  }
+
+  .img-col2 {
     top: 616px;
     left: -50px;
     width: 52.1%;
@@ -1042,34 +1071,36 @@ footer {
   }
 
   .text-col2 {
-    position: absolute;
     top: 670px;
     left: 850px;
   }
 
-  .img-text-col {
+  .img-text-col,
+  .img-text-col2,
+  .sub-headline-description-3,
+  .sub-headline-description-4 {
     position: absolute;
+  }
+
+  .img-text-col {
     top: 1219px;
     left: -50px;
     width: 52.1%;
   }
 
   .sub-headline-description-3 {
-    position: absolute;
     top: 450px;
   }
 
   .img-text-col2 {
-    position: absolute;
     top: 1219px;
     right: -8px;
     width: 52.1%;
   }
 
   .sub-headline-description-4 {
-    position: absolute;
     top: 450px;
-    width: 385px
+    width: 385px;
   }
 
   /* Client testimonials section */
@@ -1085,29 +1116,35 @@ footer {
   }
 
   /* Footer section */
-  footer {
+  footer,
+  #footer-title,
+  .attribution {
     position: absolute;
+  }
+
+  footer {
     top: 3847px;
     height: 29%;
   }
 
   #footer-title {
-    position: absolute;
     left: 630px;
   }
 
-  .Links {
+  .Links,
+  .social-icons i {
     position: relative;
+  }
+
+  .Links {
     left: 75px;
   }
 
   .social-icons i {
-    position: relative;
     right: 640px;
   }
 
   .attribution {
-    position: absolute;
     left: 580px;
   }
 }
