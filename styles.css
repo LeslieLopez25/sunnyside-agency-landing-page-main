@@ -1,6 +1,9 @@
 /* Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Poppins:wght@700&family=Fraunces:wght@700;900&display=swap");
 
+@import "/css/mobile.css";
+@import url("desktop.css");
+
 :root {
   /* Primary */
 
@@ -56,7 +59,6 @@ a {
 p {
   color: var(--Grayish-blue);
   font-family: "Barlow", sans-serif;
-  font-size: 18.5px;
 }
 
 li {
@@ -70,7 +72,7 @@ img {
 
 /* Navbar */
 .nav-container {
-  padding-bottom: 30px;
+  padding-bottom: 1.6rem;
   width: 100%;
 }
 
@@ -79,15 +81,15 @@ img {
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
   margin-right: 0 auto;
-  max-width: 1720px;
+  max-width: 95.5rem;
   width: 89%;
-  height: 80px;
+  height: 4.4rem;
 }
 
 #navbar-logo {
   justify-self: start;
-  margin-left: 20px;
-  margin-bottom: 15px;
+  margin-left: 1.1rem;
+  margin-bottom: 0.83rem;
   cursor: pointer;
 }
 
@@ -104,7 +106,7 @@ img {
   color: var(--White);
   font-family: "Barlow", sans-serif;
   position: relative;
-  left: 60px;
+  left: 3.3rem;
   cursor: pointer;
 }
 
@@ -119,17 +121,17 @@ img {
 
 .nav-links-btn,
 .nav-links-btn:hover {
-  padding: 12px 10px;
+  padding: 0.83rem 0.5rem;
   border-radius: 30px;
 }
 
 .nav-links-btn {
   background-color: var(--White);
   font-family: "Fraunces", serif;
-  font-size: 13px;
+  font-size: 0.7rem;
   position: absolute;
-  top: 20px;
-  left: 1230px;
+  top: 1.1rem;
+  left: 68.3rem;
   width: 7%;
   cursor: pointer;
 }
@@ -146,9 +148,9 @@ img {
 
 .menu-toggle .bar {
   background: var(--White);
-  margin: 5px auto;
-  width: 25px;
-  height: 3px;
+  margin: 0.27rem auto;
+  width: 1.38rem;
+  height: 0.16rem;
 }
 
 /* Hero section */
@@ -167,19 +169,19 @@ img {
 #headline {
   color: #fff;
   font-family: "Fraunces", serif;
-  font-size: 59.2px;
-  letter-spacing: 12.8px;
+  font-size: 3.28rem;
+  letter-spacing: 0.71rem;
   text-align: center;
   text-transform: uppercase;
-  top: 120px;
-  left: 250px;
+  top: 6.6rem;
+  left: 13.8rem;
   z-index: 100;
 }
 
 #arrow {
-  top: 230px;
-  left: 650px;
-  height: 90px;
+  top: 12.7rem;
+  left: 36.1rem;
+  height: 5rem;
 }
 
 /* Feature section */
@@ -187,12 +189,12 @@ img {
   display: flex;
   align-items: center;
   position: absolute;
-  top: 625px;
+  top: 34.7rem;
 }
 
 .text-col {
-  width: 670px;
-  height: 550px;
+  width: 37.2rem;
+  height: 30.5rem;
 }
 
 .sub-headline-1,
@@ -200,19 +202,19 @@ img {
 .sub-headline-3,
 .sub-headline-4 {
   position: absolute;
-  width: 400px;
+  width: 22.2rem;
 }
 
 .sub-headline-1 {
-  font-size: 36px;
-  top: 130px;
-  left: 105px;
+  font-size: 2rem;
+  top: 7.2rem;
+  left: 5.8rem;
 }
 
 .sub-headline-description-1 {
   line-height: 1.6;
-  margin-left: 105px;
-  margin-top: 240px;
+  margin-left: 5.8rem;
+  margin-top: 13.3rem;
   width: 70%;
 }
 
@@ -227,19 +229,19 @@ img {
 }
 
 #yellow {
-  top: 380px;
-  left: 105px;
+  top: 21.1rem;
+  left: 5.8rem;
 }
 
 #yellow::before,
 #pink::before {
   content: "";
   position: absolute;
-  top: 13px;
-  left: -8px;
+  top: 0.72rem;
+  left: -0.44rem;
   width: 115%;
-  height: 11.2px;
-  border-radius: 8px;
+  height: 0.62rem;
+  border-radius: 0.44rem;
   transition: 0.35s ease-out;
   z-index: -1;
 }
@@ -253,7 +255,7 @@ img {
 }
 
 .img-col {
-  width: 679px;
+  width: 37.72rem;
 }
 
 .img-col2,
@@ -264,32 +266,32 @@ img {
 }
 
 .img-col2 {
-  top: 565px;
-  width: 49.7%;
+  top: 31.4rem;
+  width: 49.65%;
 }
 
 .text-col2 {
-  top: 600px;
-  left: 800px;
+  top: 33.33rem;
+  left: 44.44rem;
 }
 
 .sub-headline-2 {
-  font-size: 36px;
+  font-size: 2rem;
   word-break: break-all;
-  top: 100px;
-  left: -30px;
+  top: 5.55rem;
+  left: -1.6rem;
 }
 
 .sub-headline-description-2 {
   line-height: 1.6;
-  margin-left: -30px;
-  margin-top: 225px;
+  margin-left: -1.6rem;
+  margin-top: 12.5rem;
   width: 85%;
 }
 
 #pink {
-  top: 360px;
-  left: -28px;
+  top: 19.4rem;
+  left: -1.5rem;
 }
 
 #pink::before {
@@ -301,8 +303,8 @@ img {
 }
 
 .img-text-col {
-  top: 1123px;
-  width: 679px;
+  top: 62.3rem;
+  width: 37.72rem;
 }
 
 .sub-headline-3,
@@ -311,8 +313,8 @@ img {
 }
 
 .sub-headline-3 {
-  bottom: 190px;
-  left: 250px;
+  bottom: 10.5rem;
+  left: 13.8rem;
 }
 
 .sub-headline-description-3,
@@ -323,15 +325,15 @@ img {
 .sub-headline-description-3 {
   text-align: center;
   line-height: 1.6;
-  top: 410px;
-  left: 140px;
+  top: 22.7rem;
+  left: 7.7rem;
   width: 61%;
 }
 
 .img-text-col2 {
-  top: 1123px;
+  top: 62.3rem;
   right: 0;
-  width: 679px;
+  width: 37.7rem;
 }
 
 .sub-headline-4,
@@ -340,22 +342,22 @@ img {
 }
 
 .sub-headline-4 {
-  bottom: 190px;
-  left: 260px;
+  bottom: 10.5rem;
+  left: 14.4rem;
 }
 
 .sub-headline-description-4 {
   text-align: center;
   line-height: 1.6;
-  top: 410px;
-  left: 150px;
+  top: 22.7rem;
+  left: 8.3rem;
   width: 61%;
 }
 
 /* Client testimonials section */
 .testimonials {
   position: absolute;
-  top: 2000px;
+  top: 111.1rem;
   width: 100%;
 }
 
@@ -365,33 +367,33 @@ img {
   letter-spacing: 0.5ch;
   text-transform: uppercase;
   position: absolute;
-  top: 440px;
-  left: 450px;
+  top: 24.4rem;
+  left: 25rem;
 }
 
 .testimonial-section-1,
 .testimonial-section-2,
 .testimonial-section-3 {
   position: absolute;
-  top: 560px;
+  top: 31.1rem;
 }
 
 .testimonial-section-1 {
-  left: 150px;
+  left: 8.3rem;
 }
 
 .testimonial-section-2 {
-  left: 600px;
+  left: 33.3rem;
 }
 
 .testimonial-section-3 {
-  left: 1040px;
+  left: 57.7rem;
 }
 
 .profile-img {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 5.5rem;
+  height: 5.5rem;
 }
 
 .testimonial-content {
@@ -400,25 +402,25 @@ img {
   line-height: 1.6;
   text-align: center;
   position: absolute;
-  top: 150px;
-  left: -90px;
-  width: 370px;
-  height: 320px;
+  top: 8.3rem;
+  left: -5rem;
+  width: 19.7rem;
+  height: 17.7rem;
 }
 
 .profile-img-1,
 .profile-img-2,
 .profile-img-3 {
   position: relative;
-  left: 40px;
+  left: 2.2rem;
 }
 
 .name {
   color: var(--Very-dark-desaturated-blue);
   font-family: "Fraunces", serif;
   position: absolute;
-  top: 300px;
-  left: 11px;
+  top: 16.6rem;
+  left: 0.61rem;
   width: 100%;
 }
 
@@ -430,12 +432,12 @@ img {
 
 .name1,
 .name3 {
-  left: 55px;
+  left: 3.05rem;
 }
 
 .name2 {
-  left: 45px;
-  width: 110px;
+  left: 2.5rem;
+  width: 6.1rem;
 }
 
 .title-1,
@@ -444,28 +446,28 @@ img {
   color: var(--Dark-grayish-blue);
   font-family: "Barlow", sans-serif;
   position: absolute;
-  top: 335px;
+  top: 18.6rem;
   width: 170%;
 }
 
 .title-1 {
-  left: 30px;
+  left: 1.6rem;
 }
 
 .title-2 {
-  left: 15px;
-  width: 185px;
+  left: 0.83rem;
+  width: 10.27rem;
 }
 
 .title-3 {
-  left: 40px;
+  left: 2.2rem;
 }
 
 /* Image section */
 .images {
   display: flex;
   position: absolute;
-  top: 3100px;
+  top: 172.22rem;
   width: 100%;
 }
 
@@ -483,7 +485,7 @@ footer,
 footer {
   display: flex;
   background-color: var(--Dark-moderate-cyan);
-  top: 3500px;
+  top: 194.4rem;
   width: 100%;
   height: 50%;
 }
@@ -491,10 +493,10 @@ footer {
 #footer-title {
   color: var(--Dark-desaturated-cyan);
   font-family: "Poppins", sans-serif;
-  font-size: 28px;
+  font-size: 1.5rem;
   font-weight: 900;
-  top: 60px;
-  left: 590px;
+  top: 3.3rem;
+  left: 32.7rem;
 }
 
 .footer-menu {
@@ -514,9 +516,9 @@ footer {
 .Links {
   color: var(--Dark-desaturated-cyan);
   font-family: "Barlow", sans-serif;
-  margin-left: 50px;
-  top: 140px;
-  left: 80px;
+  margin-left: 2.7rem;
+  top: 7.7rem;
+  left: 4.4rem;
   list-style: none;
 }
 
@@ -526,10 +528,10 @@ footer {
 
 .social-icons i {
   color: var(--Dark-desaturated-cyan);
-  font-size: 20.8px;
-  top: 240px;
-  right: 590px;
-  margin-left: 30px;
+  font-size: 1.15rem;
+  top: 13.3rem;
+  right: 32.7rem;
+  margin-left: 1.6rem;
 }
 
 .social-icons i:hover {
@@ -537,10 +539,10 @@ footer {
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 0.61rem;
   text-align: center;
-  top: 290px;
-  left: 550px;
+  top: 16.1rem;
+  left: 30.5rem;
 }
 
 .attribution a {
@@ -548,7 +550,7 @@ footer {
 }
 
 /* Mobile media query */
-@media screen and (max-width: 375px) {
+@media only screen and (max-width: 24em) {
   .nav-container {
     position: relative;
     z-index: 1000;
@@ -560,7 +562,7 @@ footer {
     background: var(--Grayish-blue);
     margin: 0;
     position: absolute;
-    top: 105px;
+    top: 5.83rem;
     left: -100%;
     width: 89%;
     opacity: 0;
@@ -568,15 +570,15 @@ footer {
   }
 
   #navbar-logo {
-    margin-left: 20px;
-    width: 100px;
-    height: 25px;
+    margin-left: 1.1rem;
+    width: 5.5rem;
+    height: 1.38rem;
   }
 
   .nav-menu.active {
     background: var(--White);
-    padding-top: 110px;
-    left: 20px;
+    padding-top: 6.1rem;
+    left: 1.1rem;
     opacity: 1;
     transition: all 0.5s ease;
   }
@@ -585,12 +587,12 @@ footer {
     background: var(--White);
     clip-path: polygon(30px 0, 100% 0, 100% 100%, 0 100px, 50px 0);
     content: "";
-    margin: 205px;
+    margin: 11.38rem;
     position: absolute;
-    bottom: 65px;
-    left: 79px;
-    width: 50px;
-    height: 50px;
+    bottom: 3.61rem;
+    left: 4.5rem;
+    width: 2.7rem;
+    height: 2.7rem;
   }
 
   .nav-links {
@@ -598,15 +600,15 @@ footer {
     display: table;
     font-family: sans-serif;
     font-weight: bold;
-    line-height: 60px;
-    margin-left: -60px;
-    bottom: 90px;
+    line-height: 3.33rem;
+    margin-left: -3.33rem;
+    bottom: 5rem;
     width: 100%;
   }
 
   .nav-links-btn,
   .nav-links-btn:hover {
-    padding: 20px 10px;
+    padding: 1.11rem 0.5rem;
     border-radius: 30px;
   }
 
@@ -614,10 +616,10 @@ footer {
     color: var(--Very-dark-desaturated-blue);
     background-color: var(--Yellow);
     font-weight: bolder;
-    width: 150px;
+    width: 8.33rem;
     position: absolute;
-    top: 210px;
-    left: -42px;
+    top: 11.6rem;
+    left: -2.33rem;
     transform: translateX(90%);
     transition: all 0.4s ease-out;
   }
@@ -647,14 +649,14 @@ footer {
   }
 
   #headline {
-    top: 140px;
-    left: 5px;
-    font-size: 38px;
+    top: 7.7rem;
+    left: 0.27rem;
+    font-size: 2.11rem;
   }
 
   #arrow {
-    top: 297px;
-    left: 180px;
+    top: 16.5rem;
+    left: 9.4rem;
     height: 10%;
   }
 
@@ -669,14 +671,14 @@ footer {
   }
 
   .img-col {
-    top: -87px;
-    width: 375px;
+    top: -4.83rem;
+    width: 20.83rem;
   }
 
   .text-col {
     text-align: center;
-    top: 180px;
-    left: -80px;
+    top: 10rem;
+    left: -4.4rem;
     width: 100%;
   }
 
@@ -689,8 +691,8 @@ footer {
 
   .sub-headline-1 {
     word-break: break-all;
-    left: 118px;
-    width: 300px;
+    left: 6.5rem;
+    width: 16.6rem;
   }
 
   .sub-headline-description-1,
@@ -702,41 +704,41 @@ footer {
 
   .sub-headline-description-1 {
     text-align: center;
-    left: -10px;
-    width: 350px;
+    left: -0.5rem;
+    width: 19.4rem;
   }
 
   #yellow {
     position: absolute;
-    top: 430px;
-    left: 205px;
+    top: 23.3rem;
+    left: 11.38rem;
   }
 
   .img-col2 {
-    margin-top: 140px;
-    width: 375px;
+    margin-top: 7.7rem;
+    width: 20.83rem;
   }
 
   .text-col2 {
     text-align: center;
-    top: 990px;
-    left: 10px;
-    width: 385px;
+    top: 55rem;
+    left: 0.5rem;
+    width: 21.38rem;
   }
 
   .sub-headline-2 {
-    left: 35px;
+    left: 1.94rem;
     width: 75%;
   }
 
   .sub-headline-description-2 {
-    left: 40px;
+    left: 2.2rem;
   }
 
   #pink {
     position: absolute;
-    top: 410px;
-    left: 110px;
+    top: 22.5rem;
+    left: 6.1rem;
   }
 
   .img-text-col,
@@ -745,8 +747,8 @@ footer {
   }
 
   .img-text-col {
-    top: 1500px;
-    width: 375px;
+    top: 83.3rem;
+    width: 20.83rem;
   }
 
   #img3,
@@ -755,60 +757,60 @@ footer {
   }
 
   #img3 {
-    top: -10px;
+    top: -0.5rem;
   }
 
   .sub-headline-3 {
-    font-size: 35px;
-    top: 390px;
-    left: 55px;
+    font-size: 1.94rem;
+    top: 21.6rem;
+    left: 3.05rem;
   }
 
   .sub-headline-description-3 {
-    font-size: 15px;
-    top: 460px;
-    left: 25px;
-    width: 330px;
+    font-size: 0.83rem;
+    top: 25.5rem;
+    left: 1.38rem;
+    width: 18.3rem;
   }
 
   .img-text-col2 {
-    top: 1901px;
-    left: 63px;
-    width: 375px;
+    top: 105.61rem;
+    left: 3.5rem;
+    width: 20.83rem;
   }
 
   #img4 {
-    top: 189px;
-    left: -63px;
+    top: 10.5rem;
+    left: -3.5rem;
   }
 
   .sub-headline-4 {
-    font-size: 35px;
-    top: 590px;
-    left: 5px;
+    font-size: 1.94rem;
+    top: 32.7rem;
+    left: 0.27rem;
   }
 
   .sub-headline-description-4 {
-    font-size: 15px;
-    top: 660px;
-    left: -45px;
-    width: 330px;
+    font-size: 0.83rem;
+    top: 36.6rem;
+    left: -2.5rem;
+    width: 18.3rem;
   }
 
   /* Testimonials section */
   .testimonials {
     position: absolute;
-    top: 3000px;
-    left: -30px;
-    width: 370px;
+    top: 166.6rem;
+    left: -1.6rem;
+    width: 20.5rem;
   }
 
   #client-title {
-    font-size: 18px;
+    font-size: 1rem;
     position: absolute;
-    top: 370px;
-    left: 50px;
-    width: 350px;
+    top: 20.5rem;
+    left: 2.7rem;
+    width: 19.4rem;
   }
 
   .testimonial-section-1,
@@ -818,8 +820,8 @@ footer {
   }
 
   .testimonial-section-1 {
-    top: 480px;
-    left: 170px;
+    top: 26.6rem;
+    left: 9.4rem;
   }
 
   .testimonial-content {
@@ -851,56 +853,56 @@ footer {
   }
 
   .profile-img-1 {
-    top: -20px;
-    left: 10px;
+    top: -1.1rem;
+    left: 0.5rem;
   }
 
   .testimonial-content-1 {
-    top: 120px;
-    left: -110px;
-    width: 320px;
+    top: 6.6rem;
+    left: -6.1rem;
+    width: 17.7rem;
   }
 
   .name1 {
-    top: 240px;
-    left: 15px;
+    top: 13.3rem;
+    left: 0.83rem;
   }
 
   .title-1 {
-    top: 275px;
-    left: -15px;
+    top: 15.27rem;
+    left: -0.83rem;
   }
 
   .testimonial-section-2 {
-    top: 800px;
-    left: 135px;
+    top: 44.4rem;
+    left: 7.5rem;
   }
 
   .profile-img-2 {
-    top: 50px;
-    left: 33px;
+    top: 2.7rem;
+    left: 1.83rem;
   }
 
   .testimonial-content-2 {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 2.2rem;
     margin-left: 0;
-    width: 340px;
+    width: 18.8rem;
   }
 
   .name2 {
-    margin-top: 35px;
-    margin-left: -15px;
+    margin-top: 1.94rem;
+    margin-left: -0.83rem;
   }
 
   .title-2 {
-    margin-top: 35px;
-    margin-left: -20px;
+    margin-top: 1.94rem;
+    margin-left: -1.1rem;
   }
 
   .testimonial-section-3 {
-    top: 1250px;
-    left: 180px;
+    top: 69.4rem;
+    left: 10rem;
   }
 
   .profile-img-3 {
@@ -908,18 +910,18 @@ footer {
   }
 
   .testimonial-content-3 {
-    left: -130px;
-    width: 340px;
+    left: -7.2rem;
+    width: 18.8rem;
   }
 
   .name3 {
-    top: 265px;
-    left: 0px;
+    top: 14.72rem;
+    left: 0;
   }
 
   .title-3 {
-    top: 300px;
-    left: -17px;
+    top: 16.6rem;
+    left: -0.94rem;
   }
 
   /* Gallery section */
@@ -927,7 +929,7 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 1580px;
+    margin-top: 87.77rem;
   }
 
   .gallery {
@@ -936,7 +938,7 @@ footer {
 
   /* Footer section */
   footer {
-    margin-top: 1646px;
+    margin-top: 91.4rem;
     height: 26%;
   }
 
@@ -946,8 +948,8 @@ footer {
   }
 
   #footer-title {
-    top: 50px;
-    left: 105px;
+    top: 2.7rem;
+    left: 5.83rem;
   }
 
   .Links,
@@ -956,7 +958,7 @@ footer {
   }
 
   .Links {
-    top: 130px;
+    top: 7.2rem;
     left: 0;
   }
 
@@ -968,19 +970,19 @@ footer {
 
   .social-icons i {
     display: ruby-text;
-    top: 200px;
-    left: -270px;
-    margin-left: 30px;
+    top: 11.1rem;
+    left: -15rem;
+    margin-left: 1.6rem;
   }
 
   .attribution {
-    top: 260px;
-    left: 60px;
+    top: 14.4rem;
+    left: 3.3rem;
   }
 }
 
 /* Desktop media query */
-@media screen and (min-width: 1440px) {
+@media only screen and (min-width: 90em) {
 
   .nav-container,
   .nav-links-btn {
@@ -988,7 +990,7 @@ footer {
   }
 
   .nav-links-btn {
-    left: 1305px;
+    left: 72.5rem;
   }
 
   /* Hero section */
@@ -1002,34 +1004,34 @@ footer {
   }
 
   #headline {
-    top: 200px;
-    left: 310px;
+    top: 11.1rem;
+    left: 17.2rem;
   }
 
   #arrow {
-    top: 360px;
-    left: 700px;
+    top: 20rem;
+    left: 38.8rem;
     height: 10%;
   }
 
   /* Feature section */
   .container {
     position: absolute;
-    top: 800px;
-    left: 50px;
+    top: 44.4rem;
+    left: 2.77rem;
   }
 
   .sub-headline-1 {
-    font-size: 40px;
+    font-size: 2.2rem;
   }
 
   .sub-headline-description-1 {
-    width: 459px;
+    width: 25.5rem;
   }
 
   #yellow {
     position: absolute;
-    top: 410px;
+    top: 22.7rem;
   }
 
   .text-col,
@@ -1038,24 +1040,23 @@ footer {
   }
 
   .text-col {
-    left: -20px;
+    left: -1.1rem;
   }
 
   .sub-headline-1 {
     position: absolute;
-    top: 120px;
+    top: 6.6rem;
   }
 
   .sub-headline-description-1 {
-    top: 30px;
+    top: 1.6rem;
   }
 
   .img-col {
     position: relative;
-    top: 0;
-    right: -25px;
-    width: 55%;
-    height: 50%;
+    top: 0.05rem;
+    right: -1.38rem;
+    width: 54.9%;
   }
 
   .img-col2,
@@ -1064,15 +1065,14 @@ footer {
   }
 
   .img-col2 {
-    top: 616px;
-    left: -50px;
-    width: 52.1%;
-    height: 50%;
+    top: 34.2rem;
+    left: -2.7rem;
+    width: 52%;
   }
 
   .text-col2 {
-    top: 670px;
-    left: 850px;
+    top: 37.2rem;
+    left: 47.2rem;
   }
 
   .img-text-col,
@@ -1083,36 +1083,36 @@ footer {
   }
 
   .img-text-col {
-    top: 1219px;
-    left: -50px;
-    width: 52.1%;
+    top: 67.61rem;
+    left: -2.7rem;
+    width: 52%;
   }
 
   .sub-headline-description-3 {
-    top: 450px;
+    top: 25rem;
   }
 
   .img-text-col2 {
-    top: 1219px;
-    right: -8px;
-    width: 52.1%;
+    top: 67.61rem;
+    right: -0.3rem;
+    width: 52%;
   }
 
   .sub-headline-description-4 {
-    top: 450px;
-    width: 385px;
+    top: 25rem;
+    width: 21.38rem;
   }
 
   /* Client testimonials section */
   .testimonials {
     position: absolute;
-    top: 2350px;
+    top: 130.55rem;
   }
 
   /* Image section */
   .images {
     position: absolute;
-    top: 3400px;
+    top: 188.88rem;
   }
 
   /* Footer section */
@@ -1123,12 +1123,12 @@ footer {
   }
 
   footer {
-    top: 3847px;
+    top: 213.72rem;
     height: 29%;
   }
 
   #footer-title {
-    left: 630px;
+    left: 35rem;
   }
 
   .Links,
@@ -1137,14 +1137,14 @@ footer {
   }
 
   .Links {
-    left: 75px;
+    left: 4.16rem;
   }
 
   .social-icons i {
-    right: 640px;
+    right: 35.5rem;
   }
 
   .attribution {
-    left: 580px;
+    left: 32.7rem;
   }
 }
