@@ -1,9 +1,6 @@
 /* Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Poppins:wght@700&family=Fraunces:wght@700;900&display=swap");
 
-@import "/css/mobile.css";
-@import url("desktop.css");
-
 :root {
   /* Primary */
 
@@ -50,6 +47,15 @@ h2 {
 h3 {
   font-family: "Barlow", sans-serif;
   color: var(--Grayish-blue);
+}
+
+h4 {
+  color: var(--Dark-grayish-blue);
+  font-family: "Barlow",
+    sans-serif;
+  position: absolute;
+  top: 18.6rem;
+  width: 170%;
 }
 
 a {
@@ -438,16 +444,6 @@ img {
 .name2 {
   left: 2.5rem;
   width: 6.1rem;
-}
-
-.title-1,
-.title-2,
-.title-3 {
-  color: var(--Dark-grayish-blue);
-  font-family: "Barlow", sans-serif;
-  position: absolute;
-  top: 18.6rem;
-  width: 170%;
 }
 
 .title-1 {
