@@ -11,6 +11,10 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
+<<<<<<< HEAD
+=======
+
+>>>>>>> ab1076ed0a4308aa0955259bb568f306e5a6cb3b
 
 ## Overview
 
