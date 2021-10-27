@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [My Solution](https://leslielopez25.github.io/sunnyside-agency-landing-page-main/)
+- Live Site URL: [My Solution](https://sunnyside-agency-landing-page-solution.netlify.app/)
 
 ## My process
 
