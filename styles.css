@@ -51,8 +51,7 @@ h3 {
 
 h4 {
   color: var(--Dark-grayish-blue);
-  font-family: "Barlow",
-    sans-serif;
+  font-family: "Barlow", sans-serif;
   position: absolute;
   top: 18.6rem;
   width: 170%;
@@ -976,36 +975,8 @@ footer {
   }
 }
 
-@media screen and (max-width: 768px) {
-  .testimonials {
-    width: auto;
-  }
-
-  .photos {
-    position: absolute;
-    top: 3261px;
-  }
-
-  #footer-title {
-    position: absolute;
-    left: 300px;
-  }
-
-  .social-icons i {
-    position: relative;
-    right: 300px;
-  }
-
-  .attribution {
-    position: absolute;
-    top: 365px;
-    left: 255px;
-  }
-}
-
 /* Desktop media query */
 @media only screen and (min-width: 90em) {
-
   .nav-container,
   .nav-links-btn {
     position: absolute;
@@ -1143,8 +1114,7 @@ footer {
 
   /* Footer section */
   footer,
-  #footer-title,
-    {
+  #footer-title {
     position: absolute;
   }
 

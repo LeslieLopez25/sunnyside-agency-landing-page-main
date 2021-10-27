@@ -46,3 +46,7 @@ Using the position property is very handy in having a lot of control of where yo
 ### Continued development
 
 Areas that I will be focusing on are flexbox, grid, and media queries and trying to use the position property a little less since I used it little too much :laughing:
+
+### Updated October 27th, 2021
+
+I've fixed a few issues with the positioning of items in the 1440px screen size and in the 375px screen size.
