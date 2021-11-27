@@ -50,3 +50,7 @@ Areas that I will be focusing on are flexbox, grid, and media queries and trying
 ### Updated October 27th, 2021
 
 I've fixed a few issues with the positioning of items in the 1440px screen size and in the 375px screen size.
+
+### Updated November 26th, 2021
+
+Went back and fixed a few more issues with the media queries.
