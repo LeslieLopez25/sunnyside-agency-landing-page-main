@@ -550,8 +550,180 @@ footer {
   color: var(--White);
 }
 
+/* Desktop media query */
+@media (min-width: 1440px) {
+  .nav-container,
+  .nav-links-btn {
+    position: absolute;
+  }
+
+  .nav-menu {
+    margin-left: 30rem;
+  }
+
+  .nav-links-btn {
+    left: 71.666rem;
+  }
+
+  /* Hero section */
+  #main-img {
+    position: absolute;
+  }
+
+  #headline,
+  #arrow {
+    position: absolute;
+  }
+
+  #headline {
+    top: 11.111rem;
+    left: 18.333rem;
+  }
+
+  #arrow {
+    top: 17.5rem;
+    left: 38.8rem;
+    height: 15%;
+  }
+
+  /* Feature section */
+  .feature-container {
+    position: absolute;
+    top: 44.4rem;
+    left: 2.77rem;
+  }
+
+  .sub-headline-1 {
+    font-size: 2.2rem;
+  }
+
+  .sub-headline-description-1 {
+    width: 25.5rem;
+  }
+
+  #yellow {
+    position: absolute;
+    top: 22.7rem;
+  }
+
+  .text-col,
+  .sub-headline-description-1 {
+    position: relative;
+  }
+
+  .text-col {
+    left: -1.1rem;
+  }
+
+  .sub-headline-1 {
+    position: absolute;
+    top: 6.6rem;
+  }
+
+  .sub-headline-description-1 {
+    top: 1.6rem;
+  }
+
+  .img-col {
+    position: relative;
+    bottom: 2.18rem;
+    right: -10px;
+    width: 53.4%;
+  }
+
+  .img-col2,
+  .text-col2 {
+    position: absolute;
+  }
+
+  .img-col2 {
+    top: 31.111rem;
+    left: -2.75rem;
+    width: 52.3%;
+  }
+
+  .text-col2 {
+    top: 37.2rem;
+    left: 47.2rem;
+  }
+
+  .img-text-col,
+  .img-text-col2,
+  .sub-headline-description-3,
+  .sub-headline-description-4 {
+    position: absolute;
+  }
+
+  .img-text-col {
+    top: 1160px;
+    left: -2.777rem;
+    width: 53.5%;
+  }
+
+  .sub-headline-description-3 {
+    top: 25rem;
+  }
+
+  .img-text-col2 {
+    top: 64.444rem;
+    right: -0.9444rem;
+    width: 53%;
+  }
+
+  .sub-headline-description-4 {
+    top: 25rem;
+    width: 21.38rem;
+  }
+
+  /* Client testimonials section */
+  .testimonials {
+    position: absolute;
+    top: 130.55rem;
+  }
+
+  #client-title {
+    font-size: 1.2rem;
+    position: relative;
+    top: 22.222rem;
+    left: 26.666rem;
+  }
+
+  /* Gallery section */
+  .photos {
+    position: absolute;
+    top: 188.88rem;
+  }
+
+  /* Footer section */
+  footer,
+  #footer-title {
+    position: absolute;
+  }
+
+  footer {
+    top: 213.72rem;
+  }
+
+  #footer-title {
+    left: 35rem;
+  }
+
+  .Links,
+  .social-icons i {
+    position: relative;
+  }
+
+  .Links {
+    left: 4.16rem;
+  }
+
+  .social-icons i {
+    right: 35.5rem;
+  }
+}
+
 /* Mobile media query */
-@media screen and (max-width: 375px) {
+@media (max-width: 375px) {
   .nav-container {
     position: relative;
     z-index: 1000;
@@ -985,177 +1157,5 @@ footer {
     top: 11.1rem;
     left: -15rem;
     margin-left: 1.6rem;
-  }
-}
-
-/* Desktop media query */
-@media screen and (min-width: 1440px) {
-  .nav-container,
-  .nav-links-btn {
-    position: absolute;
-  }
-
-  .nav-menu {
-    margin-left: 30rem;
-  }
-
-  .nav-links-btn {
-    left: 71.666rem;
-  }
-
-  /* Hero section */
-  #main-img {
-    position: absolute;
-  }
-
-  #headline,
-  #arrow {
-    position: absolute;
-  }
-
-  #headline {
-    top: 11.111rem;
-    left: 18.333rem;
-  }
-
-  #arrow {
-    top: 17.5rem;
-    left: 38.8rem;
-    height: 15%;
-  }
-
-  /* Feature section */
-  .feature-container {
-    position: absolute;
-    top: 44.4rem;
-    left: 2.77rem;
-  }
-
-  .sub-headline-1 {
-    font-size: 2.2rem;
-  }
-
-  .sub-headline-description-1 {
-    width: 25.5rem;
-  }
-
-  #yellow {
-    position: absolute;
-    top: 22.7rem;
-  }
-
-  .text-col,
-  .sub-headline-description-1 {
-    position: relative;
-  }
-
-  .text-col {
-    left: -1.1rem;
-  }
-
-  .sub-headline-1 {
-    position: absolute;
-    top: 6.6rem;
-  }
-
-  .sub-headline-description-1 {
-    top: 1.6rem;
-  }
-
-  .img-col {
-    position: relative;
-    bottom: 2.18rem;
-    right: -10px;
-    width: 53.4%;
-  }
-
-  .img-col2,
-  .text-col2 {
-    position: absolute;
-  }
-
-  .img-col2 {
-    top: 31.111rem;
-    left: -2.75rem;
-    width: 52.3%;
-  }
-
-  .text-col2 {
-    top: 37.2rem;
-    left: 47.2rem;
-  }
-
-  .img-text-col,
-  .img-text-col2,
-  .sub-headline-description-3,
-  .sub-headline-description-4 {
-    position: absolute;
-  }
-
-  .img-text-col {
-    top: 1160px;
-    left: -2.777rem;
-    width: 53.5%;
-  }
-
-  .sub-headline-description-3 {
-    top: 25rem;
-  }
-
-  .img-text-col2 {
-    top: 64.444rem;
-    right: -0.9444rem;
-    width: 53%;
-  }
-
-  .sub-headline-description-4 {
-    top: 25rem;
-    width: 21.38rem;
-  }
-
-  /* Client testimonials section */
-  .testimonials {
-    position: absolute;
-    top: 130.55rem;
-  }
-
-  #client-title {
-    font-size: 1.2rem;
-    position: relative;
-    top: 22.222rem;
-    left: 26.666rem;
-  }
-
-  /* Gallery section */
-  .photos {
-    position: absolute;
-    top: 188.88rem;
-  }
-
-  /* Footer section */
-  footer,
-  #footer-title {
-    position: absolute;
-  }
-
-  footer {
-    top: 213.72rem;
-  }
-
-  #footer-title {
-    left: 35rem;
-  }
-
-  .Links,
-  .social-icons i {
-    position: relative;
-  }
-
-  .Links {
-    left: 4.16rem;
-  }
-
-  .social-icons i {
-    right: 35.5rem;
   }
 }
