@@ -551,7 +551,7 @@ footer {
 }
 
 /* Mobile media query */
-@media (max-width: 375px) {
+@media screen and (max-width: 375px) {
   .nav-container {
     position: relative;
     z-index: 1000;
@@ -989,7 +989,7 @@ footer {
 }
 
 /* Desktop media query */
-@media (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
   .nav-container,
   .nav-links-btn {
     position: absolute;
